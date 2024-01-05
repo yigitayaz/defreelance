@@ -194,6 +194,13 @@ module defreelance::freelancer{
    
 }
 
+  #[test_only]
+    // Not public by default
+
+    public fun init_for_testing(ctx: &mut TxContext) {
+        init(ctx);
+
+}
 
 
 
